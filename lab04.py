@@ -80,6 +80,11 @@ def gcd(a, b):
             return gcd(b, a%b)
 
 # print(gcd(34, 19))
+""" Better shorter solution"""
+# def gcd(x, y):
+#     if y == 0:
+#         return x
+#     return gcd(y, x % y)
 
 
 def paths(m, n):
